@@ -1,0 +1,1858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.09380000000000001" branch-rate="0.1818" version="1.9" timestamp="1716167523" lines-covered="61" lines-valid="650" branches-covered="4" branches-valid="22">
+  <sources>
+    <source>C:\Users\eduar\OneDrive\Escritorio\Fllstck\2\assessment-cc-dotnet-sr-01\</source>
+  </sources>
+  <packages>
+    <package name="API" line-rate="0.1014" branch-rate="0.3333" complexity="37">
+      <classes>
+        <class name="Program" filename="API\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+                <line number="5" hits="0" branch="False" />
+                <line number="6" hits="0" branch="False" />
+                <line number="7" hits="0" branch="False" />
+                <line number="8" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Models.MonsterToImport" filename="API\Models\MonsterToImport.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_attack" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_defense" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_hp" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_speed" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_imageUrl" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Migrations.Init" filename="API\Migrations\20240520003029_Init.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Up" signature="(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Down" signature="(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Migrations.Init" filename="API\Migrations\20240520003029_Init.Designer.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="BuildTargetModel" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+                <line number="129" hits="0" branch="False" />
+                <line number="130" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="135" hits="0" branch="False" />
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="False" />
+                <line number="140" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="0" branch="False" />
+                <line number="144" hits="0" branch="False" />
+                <line number="145" hits="0" branch="False" />
+                <line number="146" hits="0" branch="False" />
+                <line number="147" hits="0" branch="False" />
+                <line number="148" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="153" hits="0" branch="False" />
+                <line number="154" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="False" />
+                <line number="157" hits="0" branch="False" />
+                <line number="158" hits="0" branch="False" />
+                <line number="159" hits="0" branch="False" />
+                <line number="160" hits="0" branch="False" />
+                <line number="162" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+            <line number="129" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="135" hits="0" branch="False" />
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="False" />
+            <line number="140" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="0" branch="False" />
+            <line number="144" hits="0" branch="False" />
+            <line number="145" hits="0" branch="False" />
+            <line number="146" hits="0" branch="False" />
+            <line number="147" hits="0" branch="False" />
+            <line number="148" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="153" hits="0" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="False" />
+            <line number="157" hits="0" branch="False" />
+            <line number="158" hits="0" branch="False" />
+            <line number="159" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="162" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Migrations.BattleOfMonstersContextModelSnapshot" filename="API\Migrations\BattleOfMonstersContextModelSnapshot.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="BuildModel" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+                <line number="129" hits="0" branch="False" />
+                <line number="130" hits="0" branch="False" />
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="134" hits="0" branch="False" />
+                <line number="135" hits="0" branch="False" />
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="False" />
+                <line number="140" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="0" branch="False" />
+                <line number="144" hits="0" branch="False" />
+                <line number="145" hits="0" branch="False" />
+                <line number="146" hits="0" branch="False" />
+                <line number="147" hits="0" branch="False" />
+                <line number="148" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="153" hits="0" branch="False" />
+                <line number="154" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="False" />
+                <line number="157" hits="0" branch="False" />
+                <line number="159" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+            <line number="129" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="134" hits="0" branch="False" />
+            <line number="135" hits="0" branch="False" />
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="False" />
+            <line number="140" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="0" branch="False" />
+            <line number="144" hits="0" branch="False" />
+            <line number="145" hits="0" branch="False" />
+            <line number="146" hits="0" branch="False" />
+            <line number="147" hits="0" branch="False" />
+            <line number="148" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="153" hits="0" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="False" />
+            <line number="157" hits="0" branch="False" />
+            <line number="159" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Extensions.ApplicationServiceExtensions" filename="API\Extensions\ApplicationServiceExtensions.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="ConfigureCors" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddApplicationServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.BattleController" filename="API\Controllers\BattleController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Lib.Repository.Repository.IBattleOfMonstersRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.BattleController/&lt;GetAll&gt;d__2" filename="API\Controllers\BattleController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.BattleExtendedController" filename="API\Controllers\BattleExtendedController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Lib.Repository.Repository.IBattleOfMonstersRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.BattleExtendedController/&lt;Add&gt;d__2" filename="API\Controllers\BattleExtendedController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.BattleExtendedController/&lt;Remove&gt;d__3" filename="API\Controllers\BattleExtendedController.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController" filename="API\Controllers\MonsterController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Lib.Repository.Repository.IBattleOfMonstersRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="False" />
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="17" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="17" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController/&lt;&gt;c" filename="API\Controllers\MonsterController.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;ImportCsv&gt;b__5_0" signature="(API.Models.MonsterToImport)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController/&lt;Add&gt;d__3" filename="API\Controllers\MonsterController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController/&lt;Find&gt;d__2" filename="API\Controllers\MonsterController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="25" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="178" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="25" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="178" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController/&lt;ImportCsv&gt;d__5" filename="API\Controllers\MonsterController.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="175" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="566" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="84" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="613" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="648" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="87" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="175" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="566" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="84" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="613" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="648" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="87" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterController/&lt;Remove&gt;d__4" filename="API\Controllers\MonsterController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="47" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="203" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="47" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="203" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterExtendedController" filename="API\Controllers\MonsterExtendedController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Lib.Repository.Repository.IBattleOfMonstersRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterExtendedController/&lt;GetAll&gt;d__2" filename="API\Controllers\MonsterExtendedController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="API.Controllers.MonsterExtendedController/&lt;Update&gt;d__3" filename="API\Controllers\MonsterExtendedController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Lib.Repository" line-rate="0.07" branch-rate="0" complexity="41">
+      <classes>
+        <class name="Lib.Repository.BattleOfMonstersContext" filename="Lib.Repository\BattleOfMonstersContext.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Battle" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Monster" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;Lib.Repository.BattleOfMonstersContext&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.BattleOfMonstersRepository" filename="Lib.Repository\Repository\BattleOfMonstersRepository.cs" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="get_Battles" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="get_Monsters" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="21" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Lib.Repository.BattleOfMonstersContext)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="21" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.BattleOfMonstersRepository/&lt;Save&gt;d__8" filename="Lib.Repository\Repository\BattleOfMonstersRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.BattleRepository" filename="Lib.Repository\Repository\BattleRepository.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="AddAsync" signature="(Lib.Repository.Entities.Battle)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="FindAsync" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Lib.Repository.BattleOfMonstersContext)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.BattleRepository/&lt;GetAllAsync&gt;d__4" filename="Lib.Repository\Repository\BattleRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.BattleRepository/&lt;RemoveAsync&gt;d__5" filename="Lib.Repository\Repository\BattleRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="180" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="180" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.MonsterRepository" filename="Lib.Repository\Repository\MonsterRepository.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="AddAsync" signature="(Lib.Repository.Entities.Monster)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AddAsync" signature="(System.Collections.Generic.IEnumerable`1&lt;Lib.Repository.Entities.Monster&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="FindAsync" signature="(System.Nullable`1&lt;System.Int32&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Update" signature="(System.Int32,Lib.Repository.Entities.Monster)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Lib.Repository.BattleOfMonstersContext)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="39" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.MonsterRepository/&lt;GetAllAsync&gt;d__5" filename="Lib.Repository\Repository\MonsterRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Repository.MonsterRepository/&lt;RemoveAsync&gt;d__6" filename="Lib.Repository\Repository\MonsterRepository.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="180" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="180" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="40" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Mappings.BattleMapping" filename="Lib.Repository\Mappings\BattleMapping.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Configure" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1&lt;Lib.Repository.Entities.Battle&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Mappings.MonsterMapping" filename="Lib.Repository\Mappings\MonsterMapping.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Configure" signature="(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1&lt;Lib.Repository.Entities.Monster&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Entities.Battle" filename="Lib.Repository\Entities\Battle.cs" line-rate="0.5714" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MonsterA" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MonsterB" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Winner" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MonsterARelation" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MonsterBRelation" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WinnerRelation" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="2" branch="False" />
+            <line number="7" hits="2" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Lib.Repository.Entities.Monster" filename="Lib.Repository\Entities\Monster.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="37" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="38" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Attack" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Defense" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Hp" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ImageUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Speed" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="37" branch="False" />
+            <line number="6" hits="38" branch="False" />
+            <line number="7" hits="36" branch="False" />
+            <line number="8" hits="36" branch="False" />
+            <line number="9" hits="36" branch="False" />
+            <line number="10" hits="36" branch="False" />
+            <line number="11" hits="36" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
