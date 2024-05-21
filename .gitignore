@@ -1,0 +1,16 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ApiNetCore.MonsterFight/DesignTimeBuild/.dtbcache.v2
+/.vs/ApiNetCore.MonsterFight/FileContentIndex/46d79503-9a3b-481f-9dbd-3feb455e5b88.vsidx
+/.vs/ApiNetCore.MonsterFight/FileContentIndex/91f51422-d61f-43d6-86d5-97f5ecfc8c5d.vsidx
+/.vs/ApiNetCore.MonsterFight/FileContentIndex/9454608e-88ef-4955-8a8f-df594f18381b.vsidx
+/.vs/ApiNetCore.MonsterFight/FileContentIndex/e5f5a9cd-0465-493d-97eb-7a7843ba26bf.vsidx
+/.vs/ApiNetCore.MonsterFight/v17/.suo
+/.vs/ApiNetCore.MonsterFight/v17/.wsuo
+/.vs/ApiNetCore.MonsterFight/v17/DocumentLayout.json
+/.vs/ApiNetCore.MonsterFight/v17/TestStore/0/000.testlog
+/.vs/ApiNetCore.MonsterFight/v17/TestStore/0/testlog.manifest
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
